@@ -8,7 +8,8 @@
  */
 
 // Your code :
-
+const escapeStr = "/\""
+return escapeStr
 //* Begin of tests
 const assert = require('assert')
 

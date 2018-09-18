@@ -5,7 +5,7 @@
  * and return the total
  *
  */
-
+const total = arr => arr.reduce((a,b) => a + b, 0)
 
 //* Begin of tests
 const assert = require('assert')
