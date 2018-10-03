@@ -17,6 +17,12 @@ const sourceObject = {
 
 // Your code :
 
+const get = (input) => {
+  //  const assimilation = Object.keys(sourceObject)
+
+  return sourceObject[input]
+}
+
 //* Begin of tests
 const assert = require('assert')
 

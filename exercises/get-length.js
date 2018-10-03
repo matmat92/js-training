@@ -4,11 +4,15 @@
  * Create a `getLength` function that takes an array or a string
  * and return its length.
  *
- * @notions Data-Structures, Get
+ * @notions Data-Structures, 
  */
 
 // Your code :
 
+const getLength = (input) => {
+    return input.length
+
+}
 //* Begin of tests
 const assert = require('assert')
 
