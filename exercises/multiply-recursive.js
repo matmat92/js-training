@@ -11,6 +11,21 @@
 
 // Your code :
 
+
+let multiply = (a,b) => {
+   if (b < 0) {
+       b = -b
+       a = -a
+   }
+   
+    if (b > 0) {
+      return    a + multiply(a, b-1)
+   }
+   else {
+    return 0;
+}
+   }
+
 //* Begin of tests
 const assert = require('assert')
 
